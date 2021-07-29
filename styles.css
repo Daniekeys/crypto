@@ -1,9 +1,12 @@
 .ml-6{
  margin-left: 7rem;
 }
-@media screen and (min-width:770px) {
  .nav-ml{
-  margin-left: 45%;
+  margin-left: 40%;
+ }
+@media screen and (max-width:1025px) {
+ .nav-ml{
+  margin-left: 30%;
  }
 }
 
@@ -181,7 +184,8 @@ color: white;
 .cardy{
  width: 20rem;
  height: 30rem;
- box-shadow: 0px -5px 15px #8b8989;
+ box-shadow: 0px 4px 14px 0px #C4C4C4;
+
  background-color: white;
  border-radius: 30px;
  padding: 1rem;
@@ -218,15 +222,98 @@ color: white;
  background-size: cover;
  overflow-x: hidden;
 }
+
+.choose-container{
+ padding: 2rem 4rem;
+
+}
+.choose-img{
+ width: 64px;
+ height: 64px;
+ margin: auto;
+ 
+}
+
+.bg-know{
+ background: #EFEFEF;
+
+}
+
+.where-container{
+ padding: 0.5rem 0.5rem;
+
+}
+.heading-3{
+ font-size: 56px;
+ font-weight: 600;
+ color: #FF4D00;
+}
+
+.flag{
+ width: 30px;
+ height: 20px;
+ margin-left: 1rem;
+ display: block;
+}
+.text-s-dark{
+ color: #555;
+}
+.location-site{
+ text-decoration: none;
+ font-size: 1.5rem;
+ font-weight: 600;
+ display: block;
+}
+.choosed{
+ padding-left: 5rem;
+}
+.customer-card{
+ padding: 2.5rem;
+ border-radius: 25px;
+ box-shadow: 0px 4px 14px 0px #C4C4C4;
+
+
+}
+.text-customer{
+ color: #4F5D73;
+
+}
+.customer-container{
+ width: 80%;
+
+}
+.star{
+ color: #FF8A00;
+}
+.full-width{
+ width: 100%;
+ overflow-x: hidden;
+ padding: 1rem;
+}
  @media screen and (max-width:769px) {
   .special-padding{
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .customer-container{
+ width: 100%;
+ padding: 1rem;
+ 
+
+}
+   .nav-ml{
+  margin-left: 1%;
+ }
   .heading-1{
    font-size: 40px;
    text-align: center;
   }
+  .heading-3{
+ font-size: 40px;
+ font-weight: 600;
+ color: #FF4D00;
+}
+ 
   .main-container{
    padding: 1rem;
    overflow-x: hidden;
@@ -253,12 +340,25 @@ color: white;
   text-align: center;
   margin: 1rem auto;
  }
+ .customer-card{
+  padding: 1rem;
+ }
  }
  @media screen and (max-width:600px) {
   .special-padding{
      padding-top: 1rem;
   padding-bottom: 1rem;
   }
+  .choose-container{
+ padding: 2rem 1rem;
+
+}
+.sub-parker{
+ padding: 1rem !important;
+}
+.sub-parker-1{
+ padding: 1rem !important;
+}
  }
  @media screen and (max-width:769px) {
   .special-padding{
