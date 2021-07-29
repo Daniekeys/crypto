@@ -290,11 +290,44 @@ color: white;
  overflow-x: hidden;
  padding: 1rem;
 }
+
+.bg-black{
+ background-color: black;
+}
+footer-padding{
+ padding: 2.5rem !important; 
+}
+.footer-padded{
+ padding: 2rem 3rem;
+}
+
+.text-gold{
+ color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
  @media screen and (max-width:769px) {
   .special-padding{
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .footer-padded{
+ padding: 1rem 1rem;
+}
+  footer-padding{
+ padding: 1rem; 
+}
   .customer-container{
  width: 100%;
  padding: 1rem;
