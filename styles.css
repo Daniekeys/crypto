@@ -11,10 +11,12 @@
 }
 
 
+
 .brand-color{
  background: #FF4C00;
 
 }
+
 .mr-1{
  margin-right: 0.5rem;
 }
@@ -168,6 +170,10 @@ color: white;
  margin: 0.5rem auto;
 
 }
+.width-question{
+ width: 70%;
+
+}
 .more-btn{
  background-color: transparent;
  color: white;
@@ -305,7 +311,44 @@ footer-padding{
  color: gold;
 }
 
+.input-container{
+ border: 1px solid #FF8A00;
+ width: 100%;
+ padding: 1rem;
 
+}
+.input{
+ border: none !important;
+ outline-style: none !important;
+ outline: none !important;
+ width: 100%;
+
+}
+.input::-moz-focus-outer{
+outline: none;
+border: none;
+}
+.btn-message{
+ background-color: #FF4C00;
+ color: white;
+ padding: 0.5rem 1rem;
+}
+.cardy-b{
+ height: 130px;
+width: 288px;
+margin: 0 auto;
+
+border-radius: 30px;
+box-shadow: 7px 0px 19px 0px #00000040;
+display: grid;
+place-items: center;
+
+}
+
+.about-width{
+ width: 50%;
+ margin: 0 auto;
+}
 
 
 
@@ -322,6 +365,10 @@ footer-padding{
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .width-question{
+ width: 95%;
+ 
+}
   .footer-padded{
  padding: 1rem 1rem;
 }
@@ -398,6 +445,10 @@ footer-padding{
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .about-width{
+ width: 100%;
+ margin: 0 auto;
+}
  }
  .text-branded{
   color: #FF4D00;
