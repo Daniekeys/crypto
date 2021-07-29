@@ -1,0 +1,267 @@
+.ml-6{
+ margin-left: 7rem;
+}
+@media screen and (min-width:770px) {
+ .nav-ml{
+  margin-left: 45%;
+ }
+}
+
+
+.brand-color{
+ background: #FF4C00;
+
+}
+.mr-1{
+ margin-right: 0.5rem;
+}
+.nav-link{
+ color: #222222 !important;
+}
+.nav-link:hover{
+ color: #FF8A00 !important;
+}
+.btn-brand{
+background: #FF8A00;
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+       .actively{
+        color: #FF8A00 !important;
+       }
+       .text-whiteness{
+        color: white !important;
+       }
+       .text-whiteness:hover{
+        color: white !important;
+       }
+
+ .grey-bg{
+  background: #F1F1F1;
+
+ }
+ .text-brand{
+  color: #FF4D00;
+ }
+ .story-img-container{
+  background-image: url('./images/video-preview@2x\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 291px;
+ }
+ .navbar-toggler{
+  background-color: white !important;
+ }
+ .w-70{
+  width: 70% !important;
+ }
+ .text-brand{
+  text-decoration: none;
+  color: #FF4D00;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+ }
+ .navbar-toggler-icon{
+  color: #222222 !important;
+  outline: none !important;
+  border: none !important;
+ }
+ .text-dark-sub{
+  padding: 0;
+  margin: 0;
+ }
+ .started{
+  color: white;
+  text-decoration: none;
+  width: 10rem;
+
+ }
+ .video-sub{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0.5rem 0;
+  
+ }
+ .special-padding{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+ }
+ .sub-2-parker{
+  height: 80%;
+  width: 100%;
+ }
+ .working-container{
+  width: 100%;
+  height: 500px;
+  display: grid;
+  place-items: center;
+ }
+ .working-sub{
+  width: 90%;
+  height: auto;
+ }
+ .img-resp{
+  width: 100%;
+  height: inherit;
+ }
+ .crypto{
+  width: 80%;
+  float: right;
+ }
+ .w-50{
+  width: 35% !important;
+  text-align: center;
+  margin: 1rem auto;
+ }
+.plans{
+ width: 10rem;
+ color: #222222;
+ text-decoration: none;
+ border: 2px solid #FF4C00;
+ float: right;
+}
+.working-side{
+ display: grid;
+ width: 100%;
+ height: auto;
+ place-items: center;
+ 
+}
+.place-center{
+ display:grid;
+ place-items: center;
+
+ 
+}
+.place-centery{
+ display: grid;
+ place-items: center;
+ width: 100%;
+ height: inherit;
+}
+.column-way{
+ display: flex;
+ flex-direction: column;
+}
+.heading-1{
+ font-size: 72px;
+ font-weight: 700;
+ padding: 0;
+ margin: 0;
+}
+.width-85{
+ width: 80%;
+ margin: 0.5rem auto;
+
+}
+.more-btn{
+ background-color: transparent;
+ color: white;
+ text-decoration: none;
+ border: 3px solid white;
+ display: grid;
+ place-items: center;
+ font-size: 20px;
+ border-radius: 10px;
+ width: 16rem;
+ height: 4rem;
+ margin: 0.5rem auto;
+}
+.cardy{
+ width: 20rem;
+ height: 30rem;
+ box-shadow: 0px -5px 15px #8b8989;
+ background-color: white;
+ border-radius: 30px;
+ padding: 1rem;
+}
+.standard{
+ border: 5px solid #FF4C00;
+}
+.bold{
+ font-weight: 700;
+}
+.width-80{
+ width: 100%;
+}
+.text-start{
+ text-align: left;
+}
+.mr-2{
+ margin-right: 1.5rem;
+}
+.plans-item{
+ list-style: none;
+ padding: 0;
+}
+.plan-contain{
+ padding-left: 0 !important;
+}
+
+.main-container{
+ width: 100%;
+ height: 80vh;
+ background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url('./images/older-couple-6299326_1920\ 1.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ overflow-x: hidden;
+}
+ @media screen and (max-width:769px) {
+  .special-padding{
+     padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  .cardy{
+ width: 20rem;
+ height: 30rem;
+ box-shadow: 0px -5px 15px #8b8989;
+ background-color: white;
+ border-radius: 30px;
+ padding: 1rem;
+}
+  .vary-display{
+   display: none;
+  }
+  .text-end{
+   text-align: start !important;
+  }
+  .plans{
+   float:  left !important;
+  }
+   .w-50{
+  width: 90% !important;
+  text-align: center;
+  margin: 1rem auto;
+ }
+ }
+ @media screen and (max-width:600px) {
+  .special-padding{
+     padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
+ }
+ @media screen and (max-width:769px) {
+  .special-padding{
+     padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+ }
+ .text-branded{
+  color: #FF4D00;
+  font-weight: 600;
+ }
+ .text-end{
+  text-align: right;
+ }
