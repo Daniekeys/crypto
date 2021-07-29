@@ -223,6 +223,14 @@ color: white;
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .heading-1{
+   font-size: 40px;
+   text-align: center;
+  }
+  .main-container{
+   padding: 1rem;
+   overflow-x: hidden;
+  }
   .cardy{
  width: 20rem;
  height: 30rem;
