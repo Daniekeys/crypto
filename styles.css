@@ -445,6 +445,16 @@ place-items: center;
      padding-top: 2rem;
   padding-bottom: 2rem;
   }
+  .signup-padding{
+  padding-top: 4rem;
+ }
+ .sign{
+  background: white !important;
+ }
+  .signup-form-container{
+  width: 100%;
+
+ }
   .about-width{
  width: 100%;
  margin: 0 auto;
@@ -456,4 +466,36 @@ place-items: center;
  }
  .text-end{
   text-align: right;
+ }
+
+ .sign{
+   width: 100%;
+ height: 100vh;
+ background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url('./images/executium-V9N2JGUx94I-unsplash.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ overflow-x: hidden;
+ }
+
+ .suffix{
+  font-style: italic;
+ }
+ .sub-parkery{
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
+ }
+ .signup-form-container{
+  width: 90%;
+
+ }
+ .signup-padding{
+  padding-top: 2rem;
+ }
+ 
+ .login-container{
+  width: 100%;
  }
